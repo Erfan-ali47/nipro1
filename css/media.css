@@ -1,0 +1,163 @@
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* header_start */
+    .w_logo  {
+        width: 170px;
+    }
+    .menu_bar ul li a  {
+        padding: 5px 5px !important; 
+        text-align: end;
+    }
+    .won_btn  {
+        padding-left: 0 !important; 
+        position: absolute; 
+        right: 90px; 
+        top: 20px;
+    }
+    .slogo {
+        width: 20px;
+    }
+    /* header_end */
+    /* banner1_start */
+    .artical {
+        transform: translate(-8px, -103%);
+    }
+    .artical h1{
+        font-size: 20px;
+    }
+    .artical p {
+        margin: 0; 
+        padding: 0; 
+        transform: translate(0, 0); 
+        font-size: 10px; 
+        line-height: 15px;}
+    .f_wh {
+        padding: 0; 
+        transform: translate(0, 0);}
+    .f_wh {
+        font-size: 8px;}
+
+    /* banner1_end */
+    
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width:767.98px){ 
+    /* header_start */
+    .menu_bar ul li a  {
+        padding: 5px 5px !important; 
+        text-align: end;
+    }
+    .won_btn  {
+        padding: 0 !important; 
+        position: absolute; 
+        top: 15px; 
+        right: 100px;
+    }
+    .slogo {
+        width: 20px;
+    }
+    /* header_end */
+    /* banner1_start */
+    .artical  {
+        transform: translate(0, -140%);
+    }
+    .artical h1 {
+        font-size: 35px;
+    }
+    .artical p  {
+        margin: 0; 
+        padding: 0 25px; 
+        transform: translate(-24px, 0); 
+        font-size: 12px; 
+        line-height: 25px;
+    }
+    .f_wh  {
+        padding: 0; 
+        transform: translate(0, 10px);
+    }
+    /* banner1_end */
+    
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width:991.98px){ 
+    /* header_start */
+    .menu_bar ul li a {
+        padding: 5px 5px !important; 
+        text-align: end;
+    }
+    .won_btn {
+        padding: 0 !important; 
+        position: absolute; 
+        top: 15px; 
+        right: 100px;
+    }
+    .slogo{
+        width: 20px;
+    }
+    /* banner1_start */
+    .artical  {
+        transform: translate(0, -145%);
+    }
+    .artical h1 {
+        font-size: 40px;
+    }
+    .artical p  {
+        padding: 0 75px; 
+        transform: translate(-75px, 0);
+    }
+    .f_wh  {
+        padding: 0; 
+        transform: translate(0, 10px);
+    }
+    /* banner1_end */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px)and (max-width:1199.98px){
+    /* banner1_start */
+    .artical {
+        transform: translate(0, -165%);
+    }
+    .artical h1  {
+        font-size: 54px;
+    }
+    .artical p  {
+        padding: 0 200px; 
+        transform: translate(-200px, 0);
+    }
+    .f_wh  {
+        transform: translate(0, 30px);
+    }
+    /* banner1_end */
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1399.98px){ 
+    /* banner1_start */
+    .artical {
+        transform: translate(0, -200%);
+    }
+    .artical h1 {
+        font-size: 50px;
+    }
+    .artical p {
+        font-size: 13px; 
+        line-height: 25px !important;
+    }
+    .f_wh  {
+        transform: translate(0, 15px);
+    }
+    /* banner1_end */
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px){ }
+
+
+
+
+
+
+
